@@ -1,0 +1,22 @@
+.nameHeader {
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6);
+    font-size: 4.5rem;
+}
+
+.headshot {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6);
+}
+
+.pageLink {
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6);
+}
+
+.pageLink:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.pageLink:active {
+    opacity: 0.6;
+}
