@@ -1,3 +1,17 @@
 .navBar {
     color: white;
 }
+
+.crop {
+    clip-path: inset(60px 0 0 0);
+    width: 55%;
+    height: 450%;
+}
+
+.resumeClass {
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6);
+}
+
+.boxShadow {
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 1);
+}
