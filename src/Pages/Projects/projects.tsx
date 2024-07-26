@@ -1,12 +1,10 @@
-import Footer from "../Footer/footer.tsx";
+import NavBarBot from "../navBar/navBarBot.tsx";
 
 function Projects() {
   return (
     <>
-      <div>
-        <h1>Projects</h1>
-      </div>
-      <Footer />
+      <div></div>
+      <NavBarBot />
     </>
   );
 }

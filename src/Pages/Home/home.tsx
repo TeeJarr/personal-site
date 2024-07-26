@@ -1,11 +1,11 @@
 import "./home.css";
 import Footer from "../Footer/footer.tsx";
-import Navbar from "../nav.tsx";
+import Navbar from "../navBar/navBar.tsx";
 
 function Home() {
   return (
     <>
-      <div className="my-auto mx-auto text-gray-200 flex flex-col justify-center">
+      <div className="my-auto mx-auto text-white flex flex-col justify-center">
         <img
           src="/src/assets/headshot.jpeg"
           alt="Tristan Reynolds"

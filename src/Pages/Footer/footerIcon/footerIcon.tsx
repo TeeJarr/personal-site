@@ -1,5 +1,4 @@
 import "./footerIcon.css";
-import { Link } from "react-router-dom";
 
 function FooterIcon(props: { path: string; altText: string; text: string }) {
   return (
