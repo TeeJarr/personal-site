@@ -1,8 +1,15 @@
 import { Link } from "react-router-dom";
+import { motion as m } from "framer-motion";
+import "./navBarBot.css";
 
 function Navbar() {
   return (
-    <div className="flex h-screen justify-center items-end mb-5">
+    <m.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 1 }}
+      className="flex h-screen justify-center items-end mb-5"
+    >
       <div className="text-white sticky bottom-0 w-2/4">
         <div className="flex justify-between mt-1">
           <Link to="/" className="pageLink">
@@ -22,7 +29,7 @@ function Navbar() {
           </Link>
         </div>
       </div>
-    </div>
+    </m.div>
   );
 }
 
