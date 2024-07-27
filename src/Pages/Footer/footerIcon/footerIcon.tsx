@@ -1,6 +1,11 @@
 import "./footerIcon.css";
 
-function FooterIcon(props: { path: string; altText: string; text: string }) {
+function FooterIcon(props: {
+  path: string;
+  altText: string;
+  text: string;
+  url: string;
+}) {
   return (
     <div className="flex items-center mx-5 footerIcon">
       <img
@@ -8,7 +13,9 @@ function FooterIcon(props: { path: string; altText: string; text: string }) {
         alt={props.altText}
         className="mx-2 w-10 icon"
       ></img>
-      <span className="text-white h-fit align-middle">{props.text}</span>
+      <a href={props.url} className="text-white h-fit align-middle">
+        {props.text}
+      </a>
     </div>
   );
 }

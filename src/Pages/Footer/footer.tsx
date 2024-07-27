@@ -15,6 +15,7 @@ function Footer() {
           path="/src/assets/5279114_linkedin_network_social network_linkedin logo_icon.svg"
           altText="linkedin"
           text="Linkedin"
+          url="https://www.linkedin.com/feed/?trk=404_page"
         />
         {/* <FooterIcon
           path="/src/assets/2644990_media_social_twitter_icon.svg"
@@ -30,12 +31,14 @@ function Footer() {
           path="/src/assets/4691240_instagram_icon.svg"
           altText="instagram"
           text="Instagram"
+          url="https://www.instagram.com/capturedby_tristan?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
         />
 
         <FooterIcon
           path="/src/assets/211904_social_github_icon.svg"
           altText="github"
           text="Github"
+          url="https://github.com/TeeJarr"
         />
       </footer>
     </m.div>
