@@ -1,8 +1,8 @@
 import "../Footer/footer.css";
 import "./resume.css";
 import NavbarBot from "../navBar/navBarBot.tsx";
-import pdf from "/src/assets/Resume (1).pdf";
 import { motion as m } from "framer-motion";
+import PDFViewer from "./pdfViewer/pdfViewer.tsx";
 
 function Resume() {
   return (
@@ -12,7 +12,7 @@ function Resume() {
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
       >
-        <div className="flex justify-center">
+        <div className="flex justify-center wrapper">
           <h1 className="text-4xl font-bold text-center text-white mt-5 resumeClass">
             Resume
           </h1>
@@ -24,13 +24,14 @@ function Resume() {
         transition={{ duration: 1 }}
         className="crop mx-auto -mt-9"
       >
-        <object
+        {/* <object
           width="100%"
           height="100%"
           data={pdf}
           type="application/pdf"
-          className=""
-        ></object>
+          className="resume"
+        ></object> */}
+        <PDFViewer />
       </m.div>
       <NavbarBot />
     </>
